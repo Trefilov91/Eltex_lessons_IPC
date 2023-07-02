@@ -7,6 +7,7 @@ FUNC_DIR = src/func
 SRC = \
 src/inet_udp_server.c \
 src/raw_1thread_client.c \
+src/raw_2thread_client.c \
 src/func/get_str.c
 
 CINC = \
