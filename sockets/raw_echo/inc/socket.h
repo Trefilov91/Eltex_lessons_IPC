@@ -3,7 +3,8 @@
 
 #define ECHO_SERVER_NAME "/tmp/echo_server"
 #define ECHO_LOC_CLIENT "/tmp/echo_client"
-#define ECHO_SERVER_IP "127.0.0.1"
+#define ECHO_SERVER_IP "192.168.0.196"
+#define ECHO_CLIENT_IP "192.168.0.50"
 #define ECHO_SERVER_PORT 3333
 #define ECHO_CLIENT_PORT 58153
 #define EXIT_WORD "exit"
@@ -14,6 +15,9 @@
 #define IP_FLAGS_OFSET     5
 #define IP_FLAG_DF         (0x2 << IP_FLAGS_OFSET)
 #define IP_FLAG_MF         (0x1 << IP_FLAGS_OFSET)
+
+#define NET_PROTOCOL_IPv4  0x800
+#define CLIENT_INTERFACE_NAME "enp0s3"
 
 #define MSG_DATA_MAX_LEN   500
 #define IP_HEADER_LEN      20
